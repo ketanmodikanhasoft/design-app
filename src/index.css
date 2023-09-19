@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-green {
+  color: rgb(74, 194, 74);
+}
+
+.text-red {
+  color: rgb(225, 109, 109);
+}
+
+.text-18 {
+  font-size: 16px;
+}
+
+.tooltip-div {
+  background: #344054;
+  width: 250px;
+  font-size: 10px;
+  color: #fff;
+  padding: 5px;
+  height: 150px;
+}
+.accordionTitle {
+  padding: 0px 20px 20px 50px;
+  margin-bottom: 10px;
+}
+.accordionTitle span.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.accordionTitle span svg {
+  transform: rotate(-90deg);
+}
+.accordionTitle span svg.rotate-180 {
+  transform: rotate(0deg);
+}
+.accordionTitle span.ml-4 {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.bottombottom .grid {
+  margin: 0 auto;
+  display: block;
+}
+.chart-select-option > div {
+  min-width: unset !important;
+}
+.sidebar-list-item-wrapper {
+  justify-content: center;
+}
+.sidebar-list-item-wrapper .sidebar-list-item {
+  margin: 0px;
+}
+.left-block {
+  width: 25%;
+}
+.right-block {
+  width: 75%;
+}
+@media only screen and (max-width: 600px) {
+  .left-block,
+  .right-block {
+    width: 100%;
+  }
+}
